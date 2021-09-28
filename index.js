@@ -5,7 +5,7 @@ const color = document.getElementById("color");
 btn.addEventListener("click", function () {
     const randomColor = getRandomColor();
     document.body.style.backgroundColor = colors[randomColor];
-    color.textContent = "pink";
+    color.innerText = "pink";
 });
 
 function getRandomColor() {
